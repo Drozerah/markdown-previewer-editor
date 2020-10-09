@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Title titleTextContent="Fcc Markdown Previewer Editor"/>
+    <Title titleTextContent="Markdown Previewer Editor"/>
     <Previewer/>
   </div>
 </template>
@@ -14,23 +14,16 @@ export default {
   components: {
     Title,
     Previewer
-  },
-  mounted() {
-    console.log('app is monted') // !DEBUG
   }
 }
 </script>
 
-<style>
+<style lang='scss'>
+@import '../src/assets/css/reset.css';
 *{
   box-sizing: border-box;
-  font-family: monospace;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
   margin-top: 40px;
 }
 </style>
