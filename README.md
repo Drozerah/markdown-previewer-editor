@@ -1,6 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/75be01d4-2530-4ff3-b32b-b261335b8ccd/deploy-status)](https://app.netlify.com/sites/markdown-previewer-editor/deploys)
+
 # Markdown Previewer Editor
-
-
 
 Table of Contents
 -----------------
